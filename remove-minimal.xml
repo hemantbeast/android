@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="platform/art" />
-  <remove-project name="platform/dalvik" />
   <remove-project name="android_development" />
-  <remove-project name="platform/external/doclava" />
-  <remove-project name="platform/external/flac" />
-  <remove-project name="platform/external/guava" />
-  <remove-project name="platform/external/libexif" />
-  <remove-project name="platform/external/libxml2" />
-  <remove-project name="platform/external/skia" />
-  <remove-project name="platform/external/svox" groups="pdk-cw-fs,pdk-fs"/>
-  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="android_external_tinycompress" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="android_frameworks_base" />
-  <remove-project name="platform/frameworks/ex" />
-  <remove-project name="platform/frameworks/opt/colorpicker" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/net/voip" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="android_frameworks_opt_telephony" />
-  <remove-project name="platform/frameworks/opt/timezonepicker" />
-  <remove-project name="platform/frameworks/support" />
-  <remove-project name="platform/frameworks/webview" />
-  <remove-project name="platform/frameworks/wilhelm" />
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="android_hardware_invensense" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_power" />
-  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="android_hardware_ril" />
   <remove-project name="android_packages_apps_DSPManager" />
   <remove-project name="android_packages_apps_MonthCalendarWidget" />
@@ -47,6 +23,7 @@
   <remove-project name="android_system_media" />
   <remove-project name="android_system_vold" />
   <remove-project name="android_vendor_codeaurora_telephony" />
+  <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/common" />
@@ -56,8 +33,10 @@
   <remove-project name="device/generic/mips64" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/abi/cpp" />
   <remove-project name="platform/cts" />
+  <remove-project name="platform/dalvik" />
   <remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
@@ -98,6 +77,7 @@
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/donuts" />
+  <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/drm_gralloc" />
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/droiddriver" />
@@ -113,6 +93,7 @@
   <remove-project name="platform/external/fdlibm" />
   <remove-project name="platform/external/fio" />
   <remove-project name="platform/external/fonttools" />
+  <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/gemmlowp" />
   <remove-project name="platform/external/giflib" />
@@ -126,6 +107,7 @@
   <remove-project name="platform/external/google-fonts/dancing-script" />
   <remove-project name="platform/external/google-tv-pairing-protocol" />
   <remove-project name="platform/external/gtest" />
+  <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/hamcrest" />
   <remove-project name="platform/external/harfbuzz_ng" />
@@ -160,6 +142,7 @@
   <remove-project name="platform/external/libdivsufsort" />
   <remove-project name="platform/external/libedit" />
   <remove-project name="platform/external/libevent" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libgdx" />
   <remove-project name="platform/external/libgsm" />
   <remove-project name="platform/external/libhevc" />
@@ -180,6 +163,7 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/libweave" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/littlemock" />
   <remove-project name="platform/external/lld" />
@@ -225,6 +209,7 @@
   <remove-project name="platform/external/shflags" />
   <remove-project name="platform/external/sl4a" />
   <remove-project name="platform/external/slf4j" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/smali" />
   <remove-project name="platform/external/snakeyaml" />
   <remove-project name="platform/external/sonic" />
@@ -232,10 +217,12 @@
   <remove-project name="platform/external/speex" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/srtp" />
+  <remove-project name="platform/external/svox" />
   <remove-project name="platform/external/tagsoup" />
   <remove-project name="platform/external/tcpdump" />
   <remove-project name="platform/external/testng" />
   <remove-project name="platform/external/timezonepicker-support" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinyxml" />
   <remove-project name="platform/external/tinyxml2" />
   <remove-project name="platform/external/tlsdate" />
@@ -261,6 +248,7 @@
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/compile/slang" />
   <remove-project name="platform/frameworks/data-binding" />
+  <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/ml" />
   <remove-project name="platform/frameworks/multidex" />
@@ -268,20 +256,32 @@
   <remove-project name="platform/frameworks/opt/bluetooth" />
   <remove-project name="platform/frameworks/opt/calendar" />
   <remove-project name="platform/frameworks/opt/chips" />
+  <remove-project name="platform/frameworks/opt/colorpicker" />
   <remove-project name="platform/frameworks/opt/datetimepicker" />
   <remove-project name="platform/frameworks/opt/emoji" />
   <remove-project name="platform/frameworks/opt/inputconnectioncommon" />
   <remove-project name="platform/frameworks/opt/inputmethodcommon" />
   <remove-project name="platform/frameworks/opt/net/ethernet" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/photoviewer" />
   <remove-project name="platform/frameworks/opt/setupwizard" />
+  <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/opt/vcard" />
   <remove-project name="platform/frameworks/rs" />
+  <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/volley" />
+  <remove-project name="platform/frameworks/webview" />
+  <remove-project name="platform/frameworks/wilhelm" />
   <remove-project name="platform/hardware/akm" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/bsp/intel" />
   <remove-project name="platform/hardware/google/apf" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
@@ -289,6 +289,7 @@
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ti/omap3" />
   <remove-project name="platform/hardware/ti/omap4-aah" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
